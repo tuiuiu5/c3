@@ -1,0 +1,157 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.fullContainer{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(252.44deg, #1A1A1A 0%, #0A0A0A 100%)
+}
+
+.cardContainer{
+    display: flex;
+    margin: 30px;
+}
+
+.mainContainer{
+    display: flex;
+    flex-direction: row;
+}
+
+
+/* .leftInfos{
+
+} */
+
+.rightInfos{
+    flex-direction: column-reverse;
+    /* align-items: center; */
+    display: flex;
+    justify-content: center;
+}
+
+.rightInfos span{
+    font-family: 'Saira';
+    font-size: 24px;
+    font-weight: 400;
+    background: -webkit-linear-gradient(#9859FF, #6610F2);
+    /* -webkit-background-clip: text; */
+    -webkit-text-fill-color: transparent;
+}
+
+.rightInfos h1{
+    font-size: 50px;
+    font-weight: 500;
+    font-family: 'Saira';
+    color: white;
+}
+
+
+.nav h1{
+    font-size: 26px;
+    font-family: 'Saira';
+    font-weight: 700;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+.avatarBackground img{
+    background: -webkit-linear-gradient(224.55deg, #242424 -38.15%, #121212 109.68%);
+    width: 500px;
+    height: 500px;
+    border-radius: 1000px;
+    padding: 10px;
+    position: absolute;
+    left: 106px;
+    top: 180px;
+}
+
+.docInfos p{
+    font-family: 'Saira';
+    font-weight: 300;
+    font-size: 24px;
+    color: #EBE7E1;
+}
+
+
+.bottomInfos{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.bottomInfos h1{
+    font-size: 32px;
+    font-family: 'Saira';
+    font-weight: 700;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.bottomInfos p{
+    font-family: 'Saira';
+    font-weight: 300;
+    font-size: 24px;
+    color: #EBE7E1;
+}
+.Goals{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contacts{
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+}
+
+.contacts h1{
+    font-size: 32px;
+    font-family: 'Saira';
+    font-weight: 700;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.contacts p{
+    font-family: 'Saira';
+    font-weight: 300;
+    font-size: 24px;
+    color: #EBE7E1;
+}
+
+.certificates{ 
+    display: flex;
+    flex-direction: column;
+
+}
+.certificates h1{ 
+    font-size: 32px;
+    font-family: 'Saira';
+    font-weight: 700;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.certificates p{ 
+    font-family: 'Saira';
+    font-weight: 300;
+    font-size: 24px;
+    color: #EBE7E1;
+}
